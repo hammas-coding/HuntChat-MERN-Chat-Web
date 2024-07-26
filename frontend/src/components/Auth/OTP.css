@@ -1,0 +1,86 @@
+.mid-col {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+.center-div-mid {
+  background-color: #201e43;
+  width: 100%;
+  color: #fff;
+  padding: 1.25rem;
+  border-radius: 5px;
+}
+.heading {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.main-container {
+  background-image: url("../../../public/chatwallpaper.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+.form-label {
+  font-weight: 500;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-register {
+  border: none;
+  outline: none;
+  padding: 0.45rem 1.55rem;
+  border-radius: 20px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  transition: 0.2s;
+}
+.button-register:hover {
+  background-color: #fff;
+  color: #201e43;
+}
+.form-input {
+  border-radius: 10px !important;
+  padding-left: 30px !important;
+}
+.form-input:focus {
+  box-shadow: none !important;
+  border: 1px solid #fff !important;
+}
+.login-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login-link a {
+  color: #9368f6; 
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #201e43; 
+}
+

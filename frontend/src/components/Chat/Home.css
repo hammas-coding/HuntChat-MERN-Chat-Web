@@ -1,0 +1,59 @@
+.mid-col {
+  height: 100vh;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+.center-div-mid {
+  background-color: #201e43;
+  width: 100%;
+  color: #fff;
+  padding: 1.25rem;
+  border-radius: 5px;
+}
+.heading {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.main-container {
+  background-image: url("../../../public/chatwallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.button-register:hover {
+  background-color: #fff;
+  color: #201e43;
+}
+.button-icon {
+  margin-right: 8px; 
+}
+
+.button-register {
+  border: none;
+  outline: none;
+  padding: 0.45rem 1.55rem;
+  border-radius: 20px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.button-register:hover {
+  background-color: #fff;
+  color: #201e43;
+}
